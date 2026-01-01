@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shanto PROJECT</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+  <body>
+    <header
+      class="navbar navbar-expand-lg navbar-light fixed-top glass-nav bg-transparent"
+    >
+      <div class="container">
+        <i class="fa-solid fa-couch me-2 fa-2x"></i>
+
+        <a class="navbar-brand fw-bold" href="#"> SR/<i>Shanto</i> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#collections">Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pages">Pages</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a class="btn btn-accent ms-lg-3 mt-3 mt-lg-0" href="#pricing"
+            >Purchase Now</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero-section d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <span class="eyebrow">Furniture Collection</span>
+            <h1 class="display-4 fw-bold mt-3 text-light">SR/Shanto</h1>
+            <h2 class="fw-semibold text-light">Furniture Collection</h2>
+            <p class="lead text-secondary mt-3"><i>
+              Sleek, serene, and luxurious interiors crafted for every
+              lifestyle. Thoughtful layouts, effortless shopping, and inspiring
+              stories that elevate your space.</i>
+            </p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-dark px-4" href="#shop">Shop Now</a>
+              <a class="btn btn-outline-dark px-4" href="#homepages"
+                >View Demos</a
+              >
+            </div>
+            <div class="d-flex gap-4 mt-4 text-muted small">
+              <div><i class="bi bi-check2"></i> High usability</div>
+              <div><i class="bi bi-check2"></i> Smooth animations</div>
+              <div><i class="bi bi-check2"></i> ThemeForest ready</div>
+            </div>
+          </div>
+          <div class="col-lg-6 position-relative" data-aos="fade-left">
+            <div class="hero-image">
+              <div class="hero-overlay"></div>
+              <img
+                src="image/Linen Lounge Chair.jpg"
+                alt="Modern interior"
+                class="img-fluid rounded-4 shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Homepages Showcase -->
+    <section id="homepages" class="section-padding">
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between"
+          data-aos="fade-up"
+        >
+          <div>
+            <span class="eyebrow">Layouts</span>
+            <h3 class="fw-bold mt-2">8 Homepages</h3>
+            <p class="text-muted">
+              Curated homepage styles for lifestyle, decor, Nordic, and premium
+              furniture brands.
+            </p>
+          </div>
+          <div class="btn-group filter-group mt-3 mt-lg-0" role="group">
+            <button class="btn btn-filter active" data-filter="all">All</button>
+            <button class="btn btn-filter" data-filter="minimal">
+              Minimal
+            </button>
+            <button class="btn btn-filter" data-filter="classic">
+              Classic
+            </button>
+            <button class="btn btn-filter" data-filter="modern">Modern</button>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-4 homepage-grid">
+          <div
+            class="col-md-6 col-lg-3 homepage-card"
+            data-category="minimal"
+            data-aos="zoom-in"
+          >
+            <div class="card hover-card">
+              <!-- <div
+                class="thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=800&q=80');
+                "
+              ></div> -->
+               <img src="image/bedroom.jpg" alt="" style="height: 160px;">
+              <div class="card-body">
+                <h6>Nordic Calm</h6>
+                <p class="text-muted small mb-0">
+                  Light, airy, minimal hero layouts.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 homepage-card"
+            data-category="classic"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+          >
+            <div class="card hover-card">
+              <!-- <div
+                class="thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80');
+                "
+              ></div> -->
+               <img src="image/dining room.jpg" alt="" style="height: 160px;">
+              <div class="card-body">
+                <h6>Heritage</h6>
+                <p class="text-muted small mb-0">
+                  Warm tones and crafted details.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 homepage-card"
+            data-category="modern"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="card hover-card">
+              <!-- <div
+                class="thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1523419400524-b12619f0430e?auto=format&fit=crop&w=800&q=80');
+                "
+              ></div> -->
+              <img src="image/OFFICE.jpg" alt="" style="height: 160px;">
+              <div class="card-body">
+                <h6>Statement</h6>
+                <p class="text-muted small mb-0">
+                  Bold blocks with editorial feel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 homepage-card"
+            data-category="minimal"
+            data-aos="zoom-in"
+            data-aos-delay="150"
+          >
+            <div class="card hover-card">
+              <!-- <div
+                class="thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80');
+                "
+              ></div> -->
+               <img src="image/3.jpg" alt="" style="height: 160px;">
+              <div class="card-body">
+                <h6>Serene</h6>
+                <p class="text-muted small mb-0">
+                  Soft gradients and quiet typography.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 homepage-card"
+            data-category="modern"
+            data-aos="zoom-in"
+          >
+            <div class="card hover-card">
+              <!-- <div
+                class="thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80');
+                "
+              ></div> -->
+               <img src="image/dgsegwg.jpg" alt="" style="height: 160px;">
+              <div class="card-body">
+                <h6>Gallery</h6>
+                <p class="text-muted small mb-0">
+                  Masonry stories for hero products.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 homepage-card"
+            data-category="classic"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+          >
+            <div class="card hover-card">
+              <!-- <div
+                class="thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80&sat=-40');
+                "
+              ></div> -->
+               <img src="image/5.jpg" alt="" style="height: 160px;">
+              <div class="card-body">
+                <h6>Editorial</h6>
+                <p class="text-muted small mb-0">
+                  Magazine look with refined spacing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 homepage-card"
+            data-category="modern"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="card hover-card">
+              <div
+                class="thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80&sat=-30');
+                "
+              ></div>
+              <div class="card-body">
+                <h6>Contrast</h6>
+                <p class="text-muted small mb-0">
+                  Dark-on-light hero, crisp CTAs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 homepage-card"
+            data-category="minimal"
+            data-aos="zoom-in"
+            data-aos-delay="150"
+          >
+            <div class="card hover-card">
+              <div
+                class="thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80&sat=-20');
+                "
+              ></div>
+              <div class="card-body">
+                <h6>Calm Space</h6>
+                <p class="text-muted small mb-0">
+                  Whitespace-first layout for focus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collections -->
+    <section id="collections" class="section-padding light-section">
+      <div class="container">
+        <div class="text-center" data-aos="fade-up">
+          <span class="eyebrow">Collections</span>
+          <h3 class="fw-bold mt-2">Curated Spaces</h3>
+          <p class="text-muted">
+            Living, bedroom, dining, and office essentials — crafted for calm
+            interiors.
+          </p>
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-md-3" data-aos="fade-up">
+            <div class="collection-card">
+              <img src="image/living room.jpg" alt="" height="223px" width="300px">
+              <!-- <div
+                class="collection-thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80');
+                "
+              ></div> -->
+              <div class="collection-overlay">Living Room</div>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="50">
+            <div class="collection-card">
+              <!-- <div
+                class="collection-thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80&sat=-25');
+                "
+              ></div> -->
+              <img src="image/bedroom.jpg" alt="" height="223px" width="300px">
+              <div class="collection-overlay">Bedroom</div>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="collection-card">
+              <!-- <div
+                class="collection-thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80&sat=-15');
+                "
+              ></div> -->
+              <img src="image/dining room.jpg" alt="" height="223px" width="300px">
+              <div class="collection-overlay">Dining</div>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="150">
+            <div class="collection-card">
+              <!-- <div
+                class="collection-thumb"
+                style="
+                  background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80&sat=-5');
+                "
+              ></div> -->
+              <img src="image/OFFICE.jpg" alt="" height="223px" width="300px">
+              <div class="collection-overlay">Office</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop Features -->
+    <section id="shop" class="section-padding">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4" data-aos="fade-right">
+            <span class="eyebrow">Shop Features</span>
+            <h3 class="fw-bold mt-2">Product listing preview</h3>
+            <p class="text-muted">
+              Filter-ready sidebar with materials, price range, colors, and
+              style tags. Quick-add hover interactions boost conversions.
+            </p>
+            <ul class="list-unstyled text-muted small">
+              <li class="mb-2">
+                <i class="bi bi-check2"></i> Sticky filters & clear tags
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-check2"></i> Grid / list toggle ready
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-check2"></i> Hover add-to-cart actions
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8" data-aos="fade-left">
+            <div class="shop-wrap row g-3">
+              <div class="col-md-4">
+                <div class="sidebar card p-3">
+                  <h6 class="fw-semibold">Filters</h6>
+                  <div class="mt-3">
+                    <label class="form-label">Material</label>
+                    <div class="d-flex flex-wrap gap-2 small">
+                      <span class="tag">Oak</span><span class="tag">Walnut</span
+                      ><span class="tag">Metal</span>
+                    </div>
+                  </div>
+                  <div class="mt-3">
+                    <label class="form-label">Colors</label>
+                    <div class="d-flex gap-2">
+                      <span class="color-dot" style="--c: #e5e5e5"></span>
+                      <span class="color-dot" style="--c: #b08d57"></span>
+                      <span class="color-dot" style="--c: #8c6a45"></span>
+                      <span class="color-dot" style="--c: #2e2e2e"></span>
+                    </div>
+                  </div>
+                  <div class="mt-3">
+                    <label class="form-label">Price</label>
+                    <p class="small text-muted">$120 - $980</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <div class="product-card card hover-card">
+                      <div
+                        class="thumb"
+                        style="
+                          background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=900&q=80');
+                        "
+                      ></div>
+                      <div class="card-body">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-2"
+                        >
+                          <h6 class="mb-0">Linen Lounge Chair</h6>
+                          <span class="price">$480</span>
+                        </div>
+                        <p class="text-muted small mb-2">
+                          Walnut | Linen blend
+                        </p>
+                        <button class="btn btn-outline-dark w-100">
+                          Add to cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="product-card card hover-card">
+                      <!-- <div
+                        class="thumb"
+                        style="
+                          background-image: url('https://images.unsplash.com/photo-1523419400524-b12619f0430e?auto=format&fit=crop&w=900&q=80');
+                        "
+                      ></div> -->
+                      <img src="image/Linen Lounge Chair.jpg" alt="" height="223px" width="300px">
+                      <div class="card-body">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-2"
+                        >
+                          <h6 class="mb-0">Soft Modular Sofa</h6>
+                          <span class="price">$980</span>
+                        </div>
+                        <p class="text-muted small mb-2">Bouclé | Oak legs</p>
+                        <button class="btn btn-outline-dark w-100">
+                          Add to cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="product-card card hover-card">
+                      <div
+                        class="thumb"
+                        style="
+                          background-image: url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=900&q=80');
+                        "
+                      ></div>
+                      <div class="card-body">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-2"
+                        >
+                          <h6 class="mb-0">Slate Coffee Table</h6>
+                          <span class="price">$320</span>
+                        </div>
+                        <p class="text-muted small mb-2">
+                          Stone top | Metal base
+                        </p>
+                        <button class="btn btn-outline-dark w-100">
+                          Add to cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="product-card card hover-card">
+                      <div
+                        class="thumb"
+                        style="
+                          background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=900&q=80&sat=-10');
+                        "
+                      ></div>
+                      <div class="card-body">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-2"
+                        >
+                          <h6 class="mb-0">Oak Dining Set</h6>
+                          <span class="price">$720</span>
+                        </div>
+                        <p class="text-muted small mb-2">
+                          Seats 6 | Rounded edges
+                        </p>
+                        <button class="btn btn-outline-dark w-100">
+                          Add to cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mobile Optimized -->
+    <section id="mobile" class="section-padding light-section">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <span class="eyebrow">Responsive</span>
+            <h3 class="fw-bold mt-2">Fully Responsive Design</h3>
+            <p class="text-muted">
+              Experience smooth browsing on any device. Purposeful spacing,
+              touch-friendly controls, and adaptive imagery.
+            </p>
+            <ul class="text-muted small list-unstyled mt-3">
+              <li class="mb-2">
+                <i class="bi bi-check2"></i> Mobile-first components
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-check2"></i> Optimized typography scale
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-check2"></i> Fast interactions
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="phone-stack">
+              <div
+                class="phone-card delay"
+               
+              ><img src="image/living room.jpg" alt="" height="320px" width="200px"></div>
+              <div
+                class="phone-card"
+                
+              ><img src="image/Linen Lounge Chair.jpg" alt="" height="320px" width="200px"></div>
+              <!-- <div
+                
+              ><img src="image/Linen Lounge Chair.jpg" alt="" height="320px" width="200px"></div>
+            </div> -->
+            <div
+                class="phone-card"
+                
+              ><img src="image/bedroom.jpg" alt="" height="320px" width="200px"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Premade Pages -->
+    <section id="pages" class="section-padding">
+      <div class="container">
+        <div class="text-center" data-aos="fade-up">
+          <span class="eyebrow">Pages</span>
+          <h3 class="fw-bold mt-2">Premade Pages</h3>
+          <p class="text-muted">
+            About, Contact, FAQ, 404, Coming Soon, and more ready to use.
+          </p>
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-md-2" data-aos="fade-up">
+            <div class="page-tile">About</div>
+          </div>
+          <div class="col-md-2" data-aos="fade-up" data-aos-delay="50">
+            <div class="page-tile">Contact</div>
+          </div>
+          <div class="col-md-2" data-aos="fade-up" data-aos-delay="100">
+            <div class="page-tile">FAQ</div>
+          </div>
+          <div class="col-md-2" data-aos="fade-up" data-aos-delay="150">
+            <div class="page-tile">404</div>
+          </div>
+          <div class="col-md-2" data-aos="fade-up" data-aos-delay="200">
+            <div class="page-tile">Coming Soon</div>
+          </div>
+          <div class="col-md-2" data-aos="fade-up" data-aos-delay="250">
+            <div class="page-tile">Lookbook</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing / Comparison -->
+    <section id="pricing" class="section-padding light-section">
+      <div class="container">
+        <div class="text-center" data-aos="fade-up">
+          <span class="eyebrow">Pricing</span>
+          <h3 class="fw-bold mt-2">One-time payment</h3>
+          <p class="text-muted">
+            Simple licensing, lifetime updates, and support built for growth.
+          </p>
+        </div>
+        <div class="row g-4 mt-4 align-items-stretch">
+          <div class="col-lg-5" data-aos="fade-right">
+            <div class="card pricing-card h-100">
+              <div class="card-body">
+                <span class="badge text-bg-light">Best value</span>
+                <h2 class="fw-bold mt-3">$59</h2>
+                <p class="text-muted">One-time payment, unlimited updates.</p>
+                <ul class="list-unstyled text-muted small mt-3">
+                  <li class="mb-2">
+                    <i class="bi bi-check-circle text-success"></i> All homepage
+                    demos
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check-circle text-success"></i> Ecommerce
+                    features
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check-circle text-success"></i> AOS + GSAP
+                    animations
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check-circle text-success"></i> Lifetime
+                    updates
+                  </li>
+                </ul>
+                <a class="btn btn-accent w-100 mt-3" href="#">Purchase Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="table-responsive comparison-table">
+              <table class="table align-middle mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col">Features</th>
+                    <th scope="col" class="text-center">Included</th>
+                    <th scope="col" class="text-center">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>One-time license</td>
+                    <td class="text-center">
+                      <i class="bi bi-check2 text-success"></i>
+                    </td>
+                    <td class="text-center text-muted">Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Free updates</td>
+                    <td class="text-center">
+                      <i class="bi bi-check2 text-success"></i>
+                    </td>
+                    <td class="text-center text-muted">Lifetime</td>
+                  </tr>
+                  <tr>
+                    <td>Premium support</td>
+                    <td class="text-center">
+                      <i class="bi bi-check2 text-success"></i>
+                    </td>
+                    <td class="text-center text-muted">Priority</td>
+                  </tr>
+                  <tr>
+                    <td>Figma starter</td>
+                    <td class="text-center">
+                      <i class="bi bi-check2 text-success"></i>
+                    </td>
+                    <td class="text-center text-muted">Included</td>
+                  </tr>
+                  <tr>
+                    <td>Multi-language ready</td>
+                    <td class="text-center">
+                      <i class="bi bi-check2 text-success"></i>
+                    </td>
+                    <td class="text-center text-muted">RTL + LTR</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="contact" class="cta-section">
+      <div class="container text-center" data-aos="zoom-in">
+        <h3 class="fw-bold text-white">
+          Start to build your wonderful store now!
+        </h3>
+        <p class="text-white-50 mt-2">
+          Premium layouts, calm aesthetics, and frictionless shopping ready to
+          launch.
+        </p>
+        <a class="btn btn-success mt-3 px-4" href="#pricing">Get SR/Shanto Furniture</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="blog">
+      <div
+        class="container py-4 d-flex flex-column flex-lg-row justify-content-between align-items-start gap-3"
+      >
+        <div>
+          <div class="fw-bold text-white">SR/Shanto</div>
+          <p class="text-white-50 small mb-0">
+            Furniture & lifestyle theme crafted for serenity.
+          </p>
+        </div>
+        <div class="d-flex gap-4">
+          <div class="footer-col">
+            <h6 class="text-white">Links</h6>
+            <ul class="list-unstyled text-white-50 small mb-0">
+              <li><a href="#homepages">Demos</a></li>
+              <li><a href="#collections">Collections</a></li>
+              <li><a href="#pages">Pages</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h6 class="text-white">Support</h6>
+            <ul class="list-unstyled text-white-50 small mb-0">
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Changelog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h6 class="text-white">Newsletter</h6>
+            <form class="newsletter mt-2">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email address"
+              />
+              <button type="submit" class="btn btn-accent w-100 mt-2">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="d-flex gap-3 text-white-50">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-dribbble"></i></a>
+          <a href="#"><i class="bi bi-behance"></i></a>
+        </div>
+      </div>
+      <div class="text-center text-white-50 small py-3 border-top border-dark">
+        © 2025 SR/Shanto. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
